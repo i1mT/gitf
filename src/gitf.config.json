@@ -1,0 +1,15 @@
+{
+  "before": {
+    "checkout": {
+      "do": [
+        "git checkout develop",
+        "git pull",
+        "git checkout master",
+        "git pull",
+        "git diff develop master"
+      ]
+    }
+  },
+  "after": {
+  }
+}
