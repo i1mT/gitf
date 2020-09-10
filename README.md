@@ -9,7 +9,7 @@ Except above, gitf supported full git feature.
 
 ## Usage
 ### Step 1
-Create `gitf.config.json` and config your commands like:
+Create `gitf.config.json` and configurate your commands like:
 ```json
 {
   "before": {
@@ -34,9 +34,12 @@ The configuration above tell `gitf`: before create new branch, make sure these c
 Use `gitf` instead `git` in your daily development.
 
 ### Optional Step
-Replace `usr/bin/git` link to `gitf`, and just use `git` like before.
-
-## Config
+Replace `/usr/bin/git` link to `gitf`, and just use `git` like before.
 
 ## Supported command
+
+### new branch
+
+
+## Config
 

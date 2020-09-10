@@ -6,7 +6,7 @@
 import re
 
 def git_diff(branch_a, branch_b):
-
+    
     return
 
 # 检查args是否与给出的规则相匹配
@@ -17,5 +17,5 @@ def check_args(args, rules):
     return True
 
 def original_git(args):
-    print('执行原生git')
+    print('执行原生git: git ' + "".join(args))
     return

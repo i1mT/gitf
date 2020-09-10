@@ -32,6 +32,8 @@ if __name__ == '__main__':
         tips = 'Can not find git in your machine, please install it first.\nYou can download it here: https://git-scm.com/'
         sys.exit(tips)
     config = get_config()
+    if not config:
+    
     # 只获取参数
     args = sys.argv[1:]
     # 参数根据配置打到正确的处理句柄

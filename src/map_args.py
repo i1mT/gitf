@@ -1,5 +1,4 @@
-from src.map_config import new_feature_branch, new_release_branch
-from src.checkout.checkout import checkout
+from src.command.checkout.checkout import checkout
 from src.utils import original_git
 
 # 目前支持拦截的git方法
